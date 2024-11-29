@@ -3,7 +3,7 @@
 
 int main(){
 
-	BrazoRobotico brazo(0,0,0);
+	BrazoRobotico brazo(0.0,0.0,0.0);
 	
 	std::cout << "Posición actual: (" << brazo.get_x() << ", " << brazo.get_y() << ", " << brazo.get_z() << ")\n";
 
@@ -13,11 +13,11 @@ int main(){
 
 	brazo.coger();
 
-	std::cout << "Sujetando objeto = " << brazo.sujetando_objeto() << "\n";
+	std::cout << "Sujetando objeto = " << brazo.get_sujetando() << "\n";
 
 	brazo.soltar();
 
-	std::cout << "Sujetando objeto = " << brazo.sujetando_objeto() << "\n";
+	std::cout << "Sujetando objeto = " << brazo.get_sujetando() << "\n";	
 
 	return 0;
 }

@@ -8,10 +8,12 @@ class BrazoRobotico{
 		bool sujetando_objeto;
 	
 	public:
+		BrazoRobotico(double x, double y, double z);
+
 		double get_x();
 		double get_y();
 		double get_z();
-		bool get_sujetando_objeto();
+		bool get_sujetando();
 
 		void coger();
 		void soltar();
