@@ -13,4 +13,4 @@ test: BrazoRoboticoTest
 	./BrazoRoboticoTest
 
 clean:
-	rm -f main.o BrazoRobotico.o BraxoRoboticoTest
+	rm -f main.o BrazoRobotico.o BrazoRoboticoTest
